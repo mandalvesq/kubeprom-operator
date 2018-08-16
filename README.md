@@ -14,5 +14,12 @@ This manifests were taked from:
 
 # Requirements
 
-# How to Deploy
+- Kubernetes Cluster UP and Running;
+- Acess to K8S API using kubectl.
 
+# How to Deploy Kube-Prometheus
+```
+- Clone this repo
+- cd manifests/kube-prometheus
+- kubectl apply -f .
+```
